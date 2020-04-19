@@ -21,6 +21,11 @@ apply plugin: 'jacoco'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+version = '2.0.0-SNAPSHOT'
+
+jar {
+    archiveBaseName = 'ecs-open-service-broker'
+}
 
 repositories {
     mavenCentral()
